@@ -1,0 +1,21 @@
+{
+  "name": "babel-class-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js --out-dir dist/",
+    "watch": "babel --watch index.js --out-dir dist/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-1": "^6.22.0",
+    "mobx": "^3.0.2",
+    "mobx-form-reactions": "^2.0.1"
+  }
+}
